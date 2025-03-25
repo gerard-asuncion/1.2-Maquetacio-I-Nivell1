@@ -11,4 +11,16 @@ button {
   font-size: 80%;
 }
 
+header {
+  max-width: 600px;
+  padding: 30px;
+}
+header .flex-nav .icon-hamburger {
+  display: inline;
+  float: right;
+}
+header .flex-nav .menu {
+  display: none;
+}
+
 /*# sourceMappingURL=styles.css.map */
