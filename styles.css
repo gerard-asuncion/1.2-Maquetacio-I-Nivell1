@@ -83,4 +83,59 @@ header .flex-nav .menu {
   box-shadow: 0 7px 5px 0 lightgrey;
 }
 
+.features {
+  text-align: center;
+}
+.features h2 {
+  color: #242748;
+  margin-bottom: 10px;
+}
+.features h3 {
+  color: #242748;
+  font-size: 120%;
+}
+.features p {
+  color: #8f9095;
+  margin-top: 0;
+}
+.features .features-text {
+  padding: 50px;
+}
+.features .features-buttons {
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+.features .features-buttons .button-div {
+  border: 1px solid lightgrey;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+.features .features-buttons .button-div .feat-button {
+  background: none;
+  border: none;
+  height: 50px;
+  margin-bottom: 2px;
+}
+.features .features-buttons .button-div .red-line {
+  visibility: hidden;
+  background-color: #FA5959;
+  margin: auto;
+  bottom: 0;
+  width: 100px;
+  height: 3px;
+}
+.features .features-buttons .button-div:hover .red-line {
+  visibility: visible;
+}
+.features .tab-content {
+  margin-top: 30px;
+}
+.features .tab-content [data-tab-content] {
+  display: none;
+}
+.features .tab-content .active[data-tab-content] {
+  display: block;
+}
+
 /*# sourceMappingURL=styles.css.map */
