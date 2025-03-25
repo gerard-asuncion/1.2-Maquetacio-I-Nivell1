@@ -203,3 +203,41 @@ header {
         }
     }
 }
+
+.download {
+    height: fit-content(100%);
+    text-align: center;
+    h2 {
+        color: $title-color;
+        margin-bottom: 10px;       
+    }
+    h3 {
+        color: $title-color;
+    }
+    p {
+        color: $paragraph-color;
+        margin-top: 0;
+    }
+    .browsers {
+        height: fit-content(100%);
+        .browser-download {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0px 5px 5px 5px lightgrey;
+            border-radius: 7px;
+            height: 350px;
+            .browser-image {
+                margin-top: 20px;
+            }
+            button {
+                @include buttons();
+                margin-bottom: 30px;
+            }
+        }
+        .inter-div {
+            height: 40px;
+        }
+    }
+}

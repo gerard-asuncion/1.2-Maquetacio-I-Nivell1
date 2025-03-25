@@ -183,4 +183,50 @@ header .flex-nav .menu {
   display: none;
 }
 
+.download {
+  height: fit-content(100%);
+  text-align: center;
+}
+.download h2 {
+  color: #242748;
+  margin-bottom: 10px;
+}
+.download h3 {
+  color: #242748;
+}
+.download p {
+  color: #8f9095;
+  margin-top: 0;
+}
+.download .browsers {
+  height: fit-content(100%);
+}
+.download .browsers .browser-download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 5px 5px 5px lightgrey;
+  border-radius: 7px;
+  height: 350px;
+}
+.download .browsers .browser-download .browser-image {
+  margin-top: 20px;
+}
+.download .browsers .browser-download button {
+  color: white;
+  background-color: #5265E1;
+  font-size: 80%;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0 7px 5px 0 lightgrey;
+  margin-bottom: 30px;
+}
+.download .browsers .inter-div {
+  height: 40px;
+}
+
 /*# sourceMappingURL=styles.css.map */
