@@ -138,4 +138,49 @@ header .flex-nav .menu {
   display: block;
 }
 
+.info {
+  margin-top: 100px;
+}
+.info h2 {
+  color: #242748;
+  margin-bottom: 10px;
+}
+.info p {
+  color: #8f9095;
+  margin-top: 0;
+}
+.info .info-image {
+  display: flex;
+  flex-direction: column;
+  height: fit-content(100%);
+  width: 100%;
+  position: relative;
+  margin-bottom: 10%;
+}
+.info .info-image img {
+  width: 85%;
+  max-width: 570px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
+}
+.info .info-image .background-div {
+  background-color: #5265E1;
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 0%;
+  width: 70%;
+  height: 100%;
+  border-radius: 0 200px 200px 0;
+}
+.info .info-text {
+  padding: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+.info .info-text button {
+  display: none;
+}
+
 /*# sourceMappingURL=styles.css.map */

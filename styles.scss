@@ -158,3 +158,48 @@ header {
         }
     }
 }
+
+.info {
+    margin-top: 100px;
+    h2 {
+        color: $title-color;
+        margin-bottom: 10px;       
+    }
+    p {
+        color: $paragraph-color;
+        margin-top: 0;
+    }
+    .info-image {
+        display: flex;
+        flex-direction: column;
+        height: fit-content(100%);
+        width: 100%;
+        position: relative;
+        margin-bottom: 10%;
+        img {
+            width: 85%;
+            max-width: 570px;
+            position: relative;
+            margin: 0 auto;
+            z-index: 2;
+        }    
+        .background-div {
+            background-color: $main-color;
+            position: absolute;
+            z-index: 1;
+            top: 20%;
+            left: 0%;
+            width: 70%;
+            height: 100%;
+            border-radius: 0 200px 200px 0;
+        }    
+    }
+    .info-text {
+        padding: 50px;
+        margin-top: 50px;
+        text-align: center;
+        button {
+            display: none;
+        }
+    }
+}
