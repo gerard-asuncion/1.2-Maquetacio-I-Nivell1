@@ -229,4 +229,37 @@ header .flex-nav .menu {
   height: 40px;
 }
 
+.faqs {
+  max-width: 500px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.faqs .text {
+  margin: 30px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+.faqs .text h2 {
+  color: #242748;
+  margin-bottom: 10px;
+}
+.faqs .text p {
+  color: #8f9095;
+  margin-top: 0;
+}
+.faqs .faqs-button button {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  background-color: #5265E1;
+  font-size: 80%;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0 7px 5px 0 lightgrey;
+}
+
 /*# sourceMappingURL=styles.css.map */

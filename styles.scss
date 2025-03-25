@@ -241,3 +241,30 @@ header {
         }
     }
 }
+
+.faqs {
+    max-width: 500px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    .text {
+        margin: $default-margin;
+        margin-bottom: 90px;
+        text-align: center;
+        h2 {
+            color: $title-color;
+            margin-bottom: 10px;       
+        }
+        p {
+            color: $paragraph-color;
+            margin-top: 0;
+        }
+    }
+    .faqs-button {
+        button {
+            text-align: center;
+            margin-top: 30px;
+            @include buttons();
+        }
+    }
+}
