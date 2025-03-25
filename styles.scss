@@ -52,3 +52,52 @@ header {
         }
     }
 }
+
+.intro {
+    .intro-image {
+        display: flex;
+        flex-direction: column;
+        height: fit-content(100%);
+        width: 100%;
+        position: relative;
+        margin-bottom: 10%;
+        img {
+            width: 90%;
+            max-width: 600px;
+            position: relative;
+            margin: 0 auto;
+            z-index: 2;
+        }    
+        .background-div {
+            background-color: $main-color;
+            position: absolute;
+            z-index: 1;
+            top: 22%;
+            right: 0%;
+            width: 77%;
+            height: 77%;
+            border-radius: 30% 0 0 30%;
+        }  
+    }
+    .intro-text {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        padding: 50px;
+        text-align: center;
+        h1 {
+            color: $title-color;
+        }
+        p {
+            color: $paragraph-color;
+        }
+        .buttons-row {
+
+            .blue-button {
+                @include buttons();
+            }
+            .grey-button {
+                @include buttons($grey-button-color, black);
+            }
+        }
+    }
+}
