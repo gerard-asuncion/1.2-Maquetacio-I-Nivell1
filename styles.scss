@@ -1,0 +1,40 @@
+$main-font: helvetica;
+$main-color: #5265E1;
+$secondary-color: #FA5959;
+$title-color: #242748;
+$paragraph-color: #8f9095;
+$nav-links-color: #30303c;
+$grey-button-color: #f7f7f7;
+$button-shadow: 0 7px 5px 0 lightgrey;
+$default-margin: 30px;
+
+@mixin buttons($background-color: $main-color, $color: white, $shadow: $button-shadow){
+    color: $color;
+    background-color: $background-color;
+    font-size: 80%;
+    border: 0px;
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 3;
+    box-shadow: $shadow;
+}
+
+@mixin wide-margin($top: 40px){
+    margin-top: $top;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $main-font;
+    margin: 0 0 0 0;
+}
+
+button {
+    font-size: 80%;
+}
