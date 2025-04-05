@@ -248,9 +248,11 @@ header .flex-nav .menu {
   color: #8f9095;
   margin-top: 0;
 }
-.faqs .faqs-button button {
+.faqs .faqs-button {
   text-align: center;
   margin-top: 30px;
+}
+.faqs .faqs-button button {
   color: white;
   background-color: #5265E1;
   font-size: 80%;
