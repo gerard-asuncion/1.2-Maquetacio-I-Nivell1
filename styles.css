@@ -262,4 +262,140 @@ header .flex-nav .menu {
   box-shadow: 0 7px 5px 0 lightgrey;
 }
 
+@media (min-width: 769px) {
+  header {
+    margin-top: 30px;
+    max-width: 1500px;
+    align-items: center;
+  }
+  header .flex-nav .icon-hamburger {
+    display: none;
+  }
+  header .flex-nav .menu {
+    display: flex;
+    margin: auto;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    font-size: 15px;
+  }
+  header .flex-nav .menu li a {
+    color: #30303c;
+    text-decoration: none;
+  }
+  header .flex-nav .menu li button {
+    color: white;
+    background-color: #FA5959;
+    font-size: 80%;
+    border: 0px;
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0 7px 5px 0 lightgrey;
+    width: 120%;
+  }
+  .intro {
+    margin-bottom: 0;
+  }
+  .intro .intro-image {
+    width: 700px;
+    margin-top: 10%;
+  }
+  .intro .intro-image img {
+    width: 600px;
+    margin-right: 40px;
+  }
+  .intro .intro-image .background-div {
+    top: 130px;
+    width: 460px;
+    height: 300px;
+  }
+  .intro .intro-text {
+    display: block;
+    text-align: left;
+    width: 90%;
+    margin: 0;
+    margin-top: 10%;
+  }
+  .intro .intro-text h1 {
+    font-size: 300%;
+  }
+  .intro .intro-text p {
+    font-size: 140%;
+  }
+  .intro .intro-text button {
+    font-size: 120%;
+  }
+  .features {
+    margin-top: 0;
+    align-items: center;
+  }
+  .features .features-text {
+    padding: 10%;
+  }
+  .features .features-text h2 {
+    font-size: 200%;
+  }
+  .features .features-text p {
+    font-size: 140%;
+  }
+  .features .features-buttons .button-div {
+    border-top: none;
+  }
+  .info {
+    margin-bottom: 10%;
+  }
+  .info h2 {
+    color: #242748;
+    font-size: 200%;
+  }
+  .info p {
+    color: #8f9095;
+    font-size: 140%;
+  }
+  .info .info-image {
+    height: 100%;
+    width: 50%;
+  }
+  .info .info-image img {
+    width: 570px;
+    margin-left: 20%;
+  }
+  .info .info-image .background-div {
+    height: 100%;
+    width: 70%;
+  }
+  .info .info-text {
+    text-align: left;
+    padding: 70px;
+  }
+  .download h2 {
+    font-size: 200%;
+  }
+  .download h3 {
+    font-size: 170%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .download p {
+    font-size: 140%;
+  }
+  .download .text {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .download .browsers .browser-download {
+    width: 300px;
+    height: 400px;
+  }
+  .download .browsers #firefox {
+    margin-top: 50px;
+  }
+  .download .browsers #opera {
+    margin-top: 100px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
