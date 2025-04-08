@@ -2,7 +2,7 @@
 
 ## Descripció - Enunciat de l'exercici
 
-Aquest exercici consisteix en la maquetació d'una pàgina web, a partir d'un model, utilitzant HTML, CSS, SASS i Bootstrap.
+Aquest exercici consisteix en la maquetació d'una landing page, a partir d'un model, utilitzant HTML, CSS, SASS i Bootstrap.
 
 ## Tecnologies utilitzades
 
@@ -18,16 +18,27 @@ Aquest exercici consisteix en la maquetació d'una pàgina web, a partir d'un mo
 ## Instal·lació
 
 - Clona aquest repositori: https://github.com/gerard-asuncion/1.2-Maquetacio-I-Nivell1.git
-- Instal·la les dependències: 
-  - npm install -g sass
-  - npm install bootstrap
 
 ## Execució
 
 1. Obre els arxius amb el Visual Studio Code.
 2. Utilitza l'opció "Open with Live Server" per tal d'obrir l'HTML des del navegador.
+3. Els canvis implementats a l'arxiu SASS no són directament visibles, ja que el navegador llegeix un arxiu compilat CSS enlloc de l'arxiu SASS. Per tal d'implementar els canvis a l'arxiu CSS cal utilitzar el comandament: 
 
-## COntribucions
+sass --watch styles.scss styles.css
+
+## Estructura del projecte 
+
+- Todos los archivos (incluídas las capturas de pantalla) se ubican en la carpeta principal del proyecto, salvo las imágnes, que están en una carpeta "Imágenes" dentro de la carpeta principal.
+
+## Captures
+
+![Captura 1](captura-1.jpg)
+![Captura 2](captura-2.jpg)
+![Captura 3](captura-3.jpg)
+![Captura 4](captura-4.jpg)
+
+## Contribucions
 
 Les contribucions són benvingudes! Per favor, segueix els següents passos per a contribuir:
 
